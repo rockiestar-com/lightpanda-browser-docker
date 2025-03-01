@@ -113,6 +113,22 @@ await context.close();
 await browser.disconnect();
 ```
 
+## Docker Image
+
+You can use the pre-built Docker image from GitHub Container Registry:
+
+```console
+docker pull ghcr.io/rockiestar-com/lightpanda-browser-docker:latest
+```
+
+To run the Docker image:
+
+```console
+docker run -p 9222:9222 ghcr.io/rockiestar-com/lightpanda-browser-docker:latest
+```
+
+This will expose the CDP server on port 9222, which you can connect to with Puppeteer or Playwright.
+
 ## Status
 
 Lightpanda is still a work in progress and is currently at a Beta stage.
