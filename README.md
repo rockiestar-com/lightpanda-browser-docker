@@ -121,6 +121,8 @@ You can use the pre-built Docker image from GitHub Container Registry:
 docker pull ghcr.io/rockiestar-com/lightpanda-browser-docker:latest
 ```
 
+The image supports both AMD64 (x86_64) and ARM64 (aarch64) architectures. Docker will automatically pull the correct version for your platform.
+
 To run the Docker image:
 
 ```console
